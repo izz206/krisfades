@@ -1,0 +1,57 @@
+body{
+    height: 300vh;
+    background-color: rgb(238, 238, 238);
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.navigation{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: blue;
+}
+
+main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+
+}
+
+img{
+    border: 1px solid black;
+    height: 400px;
+    text-align: center;
+}
+
+select{
+    text-decoration: none;
+    color: black;
+    border:none;
+    background-color: rgb(238, 238, 238);
+}
+
+.image1{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+}
